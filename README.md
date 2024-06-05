@@ -59,7 +59,29 @@
 
 The category folder contains all of Dysca's source material. It contains the following:
 
-                `category ├── People │   ├── Age.txt │   ├── Emotion.txt │   ├── Gender.txt │   ├── Race.txt ├── Actions.txt ├── Profession.txt ├── Celebrity.txt ├── Animal.txt ├── Plant.txt ├── Food.txt ├── Object.txt ├── Landmarks.txt ├── Clothes.txt ├── Movie.txt ├── TV shows.txt ├── Anime.txt ├── Color.txt ├── Background.txt ├── Styles.json ├── ocr_text.json ├── text.txt`
+                `category 
+                ├── People 
+                │   ├── Age.txt 
+                │   ├── Emotion.txt 
+                │   ├── Gender.txt 
+                │   ├── Race.txt 
+                ├── Actions.txt 
+                ├── Profession.txt 
+                ├── Celebrity.txt 
+                ├── Animal.txt 
+                ├── Plant.txt 
+                ├── Food.txt 
+                ├── Object.txt 
+                ├── Landmarks.txt 
+                ├── Clothes.txt 
+                ├── Movie.txt 
+                ├── TV shows.txt 
+                ├── Anime.txt 
+                ├── Color.txt 
+                ├── Background.txt 
+                ├── Styles.json 
+                ├── ocr_text.json 
+                ├── text.txt`
                     
     
 
