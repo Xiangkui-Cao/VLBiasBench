@@ -59,7 +59,7 @@
 
 The category folder contains all of Dysca's source material. It contains the following:
 
-                `category 
+                category 
                 ├── People 
                 │   ├── Age.txt 
                 │   ├── Emotion.txt 
@@ -81,7 +81,7 @@ The category folder contains all of Dysca's source material. It contains the fol
                 ├── Background.txt 
                 ├── Styles.json 
                 ├── ocr_text.json 
-                ├── text.txt`
+                ├── text.txt
                     
     
 
