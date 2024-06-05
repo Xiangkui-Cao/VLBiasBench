@@ -1,9 +1,4 @@
-# VLBiasBench
-VLBiasBench： A large-scale dataset composed of high-quality synthetic images aimed at evaluating social biases in LVLMs 
-
-![](figure/icon0.webp)
-
-## 🎨Dysca: A Dynamic and Scalable Benchmark for Evaluating Perception Ability of LVLMs
+## VLBiasBench: A large-scale dataset composed of high-quality synthetic images aimed at evaluating social biases in LVLMs 
 
 🔗The link to our project is [\[here\]](https://github.com/Robin-WZQ/LADS)
 
