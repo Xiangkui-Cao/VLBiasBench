@@ -4,7 +4,7 @@
 
 ### Overview🔍
 
-![Overview of the automatic pipeline in Dysca](./docs/Figure1.pdf)
+![Overview of the construction of VLBiasBench](./docs/Figure1-1.pdf)
 
 **Figure 1. Overview of the automatic pipeline in Dysca for generating VQAs, cleaning VQAs and evaluating LVLMs.**
 
