@@ -12,26 +12,13 @@
 
 ### Key statistics of Dysca📊
 
-| Statistic | Number |
-| --- | --- |
-| Total questions | 600K |
-| \- multiple-choice questions | 3,392 (55.2%) |
-| \- Free-form questions | 2,749 (44.8%) |
-| \- True-or-false | 5,261 (85.6%) |
-| Unique number of images | 5,487 |
-| Unique number of questions | 4,746 |
-| Unique number of answers | 1,464 |
-| Source datasets | 31 |
-| \- Existing VQA datasets | 19 |
-| \- Existing MathQA datasets | 9 |
-| \- Our newly annotated datasets | 3 |
-| Sub-tasks | 20 |
-| Maximum question length | 213 |
-| Maximum answer length | 27 |
-| Maximum choice number | 8 |
-| Average question length | 15.6 |
-| Average answer length | 1.2 |
-| Average choice number | 3.4 |
+| Statistic | Image Number | Sample Number |
+| --- | --- | --- |
+| Total questions | 46848 | 128342 |
+| \- open-ended questions | | |
+| \- close-ended questions | | |
+| \-\- age | | |
+
 
 ### Examples of VLBiasBench📸
 
