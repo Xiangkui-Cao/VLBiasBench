@@ -8,12 +8,6 @@
 
 **Figure 1. Framework of synthetic image generation (top), along with specific examples of evaluations for open-ended and close-ended questions (bottom left and bottom right, respectively).**
 
-  
-
-![The available subtasks of our Dysca](./figure/subtasks.svg)
-
-**Figure 2. The available subtasks of our Dysca.**
-
 **Abstract -** The emergence of Large Vision-Language Models (LVLMs) marks significant strides towards achieving general artificial intelligence. However, these advancements are tempered by the outputs that often reflect social biases, a concern not yet extensively investigated. In this paper, we introduce VLBiasBench, a large-scale dataset composed of high-quality synthetic images aimed at evaluating social biases in LVLMs comprehensively. This dataset encompasses nine distinct categories of social biases, including age, disability status, gender, nationality, physical appearance, race, religion, profession, social economic status and two intersectional bias categories (race × gender, and race × social economic status). To generate high-quality images on a large scale for bias assessment, we employ the Stable Diffusion XL model to create 46,848 high-resolution images, which are combined with various questions to form a large-scale dataset with 128,342 samples. These questions are categorized into open and close ended types, fully considering the sources of bias and comprehensively evaluating the biases of LVLM from multiple perspectives. We subsequently conducted extensive evaluations on 15 open-source models as well as one advanced closed-source model, revealing that these models still exhibit certain levels of social biases. 
 
 ### Key statistics of Dysca📊
@@ -44,6 +38,7 @@
 ### Evaluation Results🏆
 
 ![Overview of the construction of VLBiasBench](./docs/Figure2.png)
+**Figure 2. Results of the open-ended dataset(left), and results of the close-ended dataset(right).**
 
 #### Clean Scenario
 
