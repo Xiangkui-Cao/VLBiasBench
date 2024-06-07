@@ -1,0 +1,269 @@
+# ---------- MiniGPT-4 -----------
+minigpt4_vicuna-7b:
+    num_beams: 1 #1
+    temperature: 0.7 #1.0
+    max_new_tokens: 512
+    top_p: 0.9
+    length_penalty: 2
+
+
+minigpt4_vicuna-13b:
+    num_beams: 1 #1
+    temperature: 0.7 #1.0
+    max_new_tokens: 512
+    top_p: 0.9
+    length_penalty: 2
+
+
+minigpt4_llama_2:
+    num_beams: 1 #1
+    temperature: 0.7 #1.0
+    max_new_tokens: 512
+    top_p: 0.9
+    length_penalty: 2
+
+
+# ---------- MiniGPT-v2 ----------
+minigpt_v2:
+    num_beams: 1 #1
+    temperature: 0.7 # 0.6
+    max_new_tokens: 512
+    inst_pre: "" # "" / "[vqa] " / "[grounding] describe this image in detail" / "[refer] " / "[detection] " / "[identify] what is this"
+    top_p: 0.9
+    length_penalty: 2
+
+# ---------- BLIP2 -----------
+blip2_flan-t5-xl:
+    num_beams: 3 #5
+    max_new_tokens: 512
+    top_p: 0.9
+    top_k: 50
+    temperature: 0.7 #1
+    length_penalty: 2
+    load_float16: False
+
+blip2-opt-2.7b:
+    num_beams: 3 #5
+    max_new_tokens: 512
+    top_p: 0.9
+    top_k: 50
+    temperature: 0.7 #1
+    length_penalty: 2
+    load_float16: False
+
+blip2-opt-6.7b:
+    num_beams: 3 #5
+    max_new_tokens: 512
+    top_p: 0.9
+    top_k: 50
+    temperature: 0.7 #1
+    length_penalty: 2
+    load_float16: True
+
+
+# ---------- InstructBLIP -----------
+instructblip_vicuna-7b:
+    num_beams: 3 #5
+    max_new_tokens: 512
+    top_p: 0.9
+    top_k: 50
+    temperature: 0.7 #1
+    length_penalty: 2
+    load_float16: True
+
+instructblip_vicuna-13b:
+    num_beams: 3 #5
+    max_new_tokens: 512
+    top_p: 0.9
+    top_k: 50
+    temperature: 0.7 #1
+    length_penalty: 2
+    load_float16: True
+
+instructblip_flan-t5-xl:
+    num_beams: 3 #5
+    max_length: 256
+    top_p: 0.9
+    top_k: 50
+    temperature: 0.7 #1
+    length_penalty: 2
+    load_float16: False
+
+instructblip_flan-t5-xxl:
+    num_beams: 3 #5
+    max_length: 256
+    top_p: 0.9
+    top_k: 50
+    temperature: 0.7 #1
+    length_penalty: 2
+    load_float16: True
+
+
+# ---------- LLaVA-1.5 -----------
+llava-1.5-7b:
+    do_sample: True
+    num_beams: 1 #1
+    temperature: 0.7 #0.2
+    top_p: 0.9
+    top_k: 50
+    length_penalty: 2
+    max_new_tokens: 512
+    load_8bit: False
+    
+llava-1.5-13b:
+    do_sample: True
+    num_beams: 1 #1
+    temperature: 0.7 #0.2
+    top_p: 0.9
+    top_k: 50
+    length_penalty: 2
+    max_new_tokens: 512
+    load_8bit: False
+
+
+# ---------- Otter -----------
+otter:
+    load_bit: 'fp32' # bf16 / fp16 / fp32
+    max_new_tokens: 512
+    num_beams: 1 # 3
+    temperature: 0.7 #0.2
+    top_p: 0.9
+    top_k: 50
+    length_penalty: 2
+
+
+# ---------- Qwen-VL -----------
+qwen-vl:
+    max_new_tokens: 512
+    num_beams: 1 # 1
+    temperature: 0.7
+    top_k: 50
+    top_p: 0.9
+    length_penalty: 2
+
+# ---------- Shikra -----------
+shikra-7b:
+    max_new_tokens: 512
+    num_beams: 3 # 5
+    temperature: 0.7
+    top_p: 0.9
+    length_penalty: 2
+    mode: 'Advanced' # 'VQA' / 'Advanced'
+
+
+
+# ---------- InternLM-XComposer-VL -----------
+internlm-xcomposer-vl-7b:
+    max_new_tokens: 512
+    num_beams: 1 # 1
+    temperature: 0.7
+    top_p: 0.9
+    length_penalty: 2
+
+
+# ---------- Emu2-Chat -----------
+emu2-chat:
+    max_new_tokens: 512
+    num_beams: 3 # 3
+    temperature: 0.7
+    top_k: 50
+    top_p: 0.9
+    length_penalty: 10 #5
+    low_memory: True
+
+
+
+
+
+
+# ---------- Emu2-Gen -----------
+emu2-gen:
+    height: 1024
+    width: 1024
+    num_inference_steps: 50
+    guidance_scale: 3.
+
+
+# ---------- SD-1.5 -----------
+sd-1.5:
+    plms: True
+    height: 512
+    width: 512
+    scale: 7.5
+    ddim_steps: 50
+    ddim_eta: 0.0
+    C: 4 # latent channels
+    f: 8 # downsampling factor
+    precision: 'autocast' # full / autocase
+    put_watermark: False
+    strength: 0.8 # used in TI2I
+
+
+
+
+# ---------- SDXL -----------
+sdxl-base-1.0:
+    height: 1024
+    width: 1024
+    C: 4
+    f: 8
+    is_legacy: False
+    num_steps: 40
+    sampler: "EulerEDMSampler" # "EulerEDMSampler" / "HeunEDMSampler" / "EulerEDMSampler" / "EulerAncestralSampler" / "DPMPP2SAncestralSampler" / "DPMPP2MSampler" / "LinearMultistepSampler"
+    discretization: "LegacyDDPMDiscretization" # "LegacyDDPMDiscretization" / "EDMDiscretization"
+    strength: 0.75 # used in TI2I
+    lowvram_mode: False
+
+
+sdxl-refiner-1.0:
+    height: 1024
+    width: 1024
+    C: 4
+    f: 8
+    is_legacy: True
+    num_steps: 40
+    sampler: "EulerEDMSampler" # "EulerEDMSampler" / "HeunEDMSampler" / "EulerEDMSampler" / "EulerAncestralSampler" / "DPMPP2SAncestralSampler" / "DPMPP2MSampler" / "LinearMultistepSampler"
+    discretization: "LegacyDDPMDiscretization" # "LegacyDDPMDiscretization" / "EDMDiscretization"
+    strength: 0.75 # used in TI2I
+    lowvram_mode: True
+    refiner_strength: 0.15
+
+
+sd-2.1:
+    height: 512
+    width: 512
+    C: 4
+    f: 8
+    is_legacy: True
+    num_steps: 40
+    sampler: "EulerEDMSampler" # "EulerEDMSampler" / "HeunEDMSampler" / "EulerEDMSampler" / "EulerAncestralSampler" / "DPMPP2SAncestralSampler" / "DPMPP2MSampler" / "LinearMultistepSampler"
+    discretization: "LegacyDDPMDiscretization" # "LegacyDDPMDiscretization" / "EDMDiscretization"
+    strength: 0.75 # used in TI2I
+    lowvram_mode: False
+
+sdxl-turbo:
+    height: 512
+    width: 512
+    C: 4
+    f: 8
+    is_legacy: False
+    num_steps: 1
+    lowvram_mode: False
+
+# ---------- InstructPix2Pix -----------
+instructpix2pix:
+    resolution: 512
+    num_steps: 100
+    cfg_text: 7.5
+    cfg_image: 1.2
+
+# ---------- GILL -----------
+gill:
+    scale: 7.5
+    num_steps: 50
+
+# ---------- Kosmos-G -----------
+kosmos-g:
+    scale: 3.0
+    num_steps: 250
+    scheduler: "ddim"  # ['ddim', 'pndm', 'dpms']
