@@ -39,9 +39,11 @@
 | Average answer length | 1.2 |
 | Average choice number | 3.4 |
 
-### Examples of Dysca📸
+### Examples of VLBiasBench📸
 
 ### Evaluation Results🏆
+
+![Overview of the construction of VLBiasBench](./docs/Figure2.png)
 
 #### Clean Scenario
 
