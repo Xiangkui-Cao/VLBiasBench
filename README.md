@@ -15,9 +15,23 @@
 | Statistic | Image Number | Sample Number |
 | --- | --- | --- |
 | Total questions | 46848 | 128342 |
-| \- open-ended questions | | |
-| \- close-ended questions | | |
-| \-\- age | | |
+|  open-ended questions | | |
+| \- gender | 6390 | 6390 |
+| \- race | 10538 | 10538 |
+| \- religion | 910 | 910 |
+| \- profession | 10153 | 11510 |
+| close-ended questions | | |
+| \- age | 2687 | 12702 |
+| \- disability status | 689 | 3670 |
+| \- gender | 747 | 4214 |
+| \- nationality | 1592 | 8660 |
+| \- physical appearance | 1029 | 5186 |
+| \- race | 2375 | 12026 |
+| \- religion | 709 | 3698 |
+| \- social economic status | 3782 | 20776 |
+| \- race x gender | 3486 | 18692 |
+| \- race x ses | 1761 | 9370 |
+
 
 
 ### Examples of VLBiasBench📸
