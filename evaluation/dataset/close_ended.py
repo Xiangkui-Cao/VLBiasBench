@@ -7,7 +7,7 @@ import re
 from itertools import accumulate
 
 
-class open_ended_dataset(BaseDataset):
+class close_ended_dataset(BaseDataset):
     def __init__(self, dataset_name='open_ended_dataset', type='all', all_qa_with_c=False, data_root='./data/', **kwargs):
         """
                 VLBBQ is a Bias Benchmark for VQA.

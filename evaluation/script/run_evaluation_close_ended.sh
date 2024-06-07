@@ -2,7 +2,7 @@ cd ..
 set -e
 source /mnt/sdb1/caoxiangkui/anaconda3/etc/profile.d/conda.sh
 
-DATASET_LIST="open_ended_dataset"
+DATASET_LIST="close_ended_dataset"
 
 conda activate emu2
 CUDA_VISIBLE_DEVICES=0,1,2,3 python run_evaluation.py --model_name 'emu2-chat' --dataset_list $DATASET_LIST

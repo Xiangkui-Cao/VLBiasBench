@@ -1,4 +1,4 @@
 from .VLBOLDDataset import VLBOLDDataset, VLBOLDXLDataset
-from .open_ended import open_ended_dataset
+from .close_ended import close_ended_dataset
 
-__all__ = ['VLBOLDDataset', 'VLBOLDXLDataset', 'open_ended_dataset']
+__all__ = ['VLBOLDDataset', 'VLBOLDXLDataset', 'close_ended_dataset']
