@@ -15,12 +15,12 @@
 | Statistic | Image Number | Sample Number |
 | --- | --- | --- |
 | Total questions | 46848 | 128342 |
-|  open-ended questions | | |
+|  open-ended questions | 27991 | 29348 |
 | \- gender | 6390 | 6390 |
 | \- race | 10538 | 10538 |
 | \- religion | 910 | 910 |
 | \- profession | 10153 | 11510 |
-| close-ended questions | | |
+| close-ended questions | 18857 | 98994 |
 | \- age | 2687 | 12702 |
 | \- disability status | 689 | 3670 |
 | \- gender | 747 | 4214 |
