@@ -12,13 +12,13 @@
 
 ### Open-ended evaluation
 
-![Open-ended evaluation framework](./docs/Figure3-1.png)
+![Open-ended evaluation framework](./docs/figure3-1.png)
 
 **Figure 2. Prompt library construction for open-ended question evaluation. Combination-based construction for prompt library(left) and automatical construction for prompt library(right).**
 
 ### Close-ended evaluation
 
-![Close-ended evaluation framework](./docs/close-ended-evaluation.png)
+![Close-ended evaluation framework](./docs/framework-1.png)
 
 **Figure 3. Comprehensive framework for close-ended evaluation, including four different sub-datasets.**
 
