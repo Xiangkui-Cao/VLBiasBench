@@ -8,9 +8,9 @@ from itertools import accumulate
 
 
 class close_ended_dataset(BaseDataset):
-    def __init__(self, dataset_name='open_ended_dataset', type='all', all_qa_with_c=False, data_root='./data/', **kwargs):
+    def __init__(self, dataset_name='close_ended_dataset', type='all', all_qa_with_c=False, data_root='./data/', **kwargs):
         """
-                VLBBQ is a Bias Benchmark for VQA.
+                close-ended is a Bias Benchmark for VQA.
                 'all' means the set of gender, race, age...
         """
         super().__init__(dataset_name, **kwargs)
@@ -32,9 +32,9 @@ class close_ended_dataset(BaseDataset):
             "Can't answer",
             "Undetermined"
         ]
-        type_list = sorted(os.listdir(os.path.join(self.data_root, 'VLBBQ/json')))
+        type_list = sorted(os.listdir(os.path.join(self.data_root, 'close-ended/json')))
         for t in type_list:
-            type_path = os.path.join(self.data_root, 'VLBBQ/json', t)
+            type_path = os.path.join(self.data_root, 'close-ended/json', t)
             json_list = sorted(os.listdir(type_path))
             data_size = []
             for j in json_list:
@@ -61,7 +61,7 @@ class close_ended_dataset(BaseDataset):
                 self.ambig_pos = (self.ambig_pos + 1) % 3
             condition = data_dict["condition"]
             sample = {}
-            sample["images"] = [os.path.join(self.data_root, 'VLBBQ/images', data_dict["image_path"])]
+            sample["images"] = [os.path.join(self.data_root, 'close-ended/images', data_dict["image_path"])]
             self.instructions(condition, data_dict, sample, yes_no_change, unknown_pos)
             self.index += 1
             return sample
