@@ -48,6 +48,10 @@
 
 ### Examples of VLBiasBench📸
 
+![A sample in open-ended evaluation](./docs/Open_Otter_African-1.png)
+
+![A sample in close-ended evaluation](./docs/Close_3-1.png)
+
 ### Evaluation Results🏆
 
 ![Overview of the construction of VLBiasBench](./docs/Figure2.png)
