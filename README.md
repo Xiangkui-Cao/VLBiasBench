@@ -55,14 +55,6 @@
 ![Overview of the construction of VLBiasBench](./docs/Figure2.png)
 **Figure 4. Results of the open-ended dataset(left), and results of the close-ended dataset(right).**
 
-🔗The link to our project is [\[here\]](https://github.com/Xiangkui-Cao/VLBiasBench)
-
-🔗The link to our paper is [\[here\]]()
-
-🔗The link to our dataset is [\[here\]]()
-
-🔗The link to our dataset is [\[here\]]()
-
 ### Related projects🔗
 
 +   [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
@@ -85,3 +77,13 @@
 ### Acknowledgement
 
 This section will include acknowledgements...
+
+### Links
+
+🔗The link to our project is [\[here\]](https://github.com/Xiangkui-Cao/VLBiasBench)
+
+🔗The link to our paper is [\[here\]]()
+
+🔗The link to our dataset is [\[here\]]()
+
+🔗The link to our dataset is [\[here\]]()
