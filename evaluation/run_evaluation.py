@@ -11,7 +11,7 @@ import logging
 
 
 valid_models = ['minigpt4_vicuna-7b', 'minigpt4_vicuna-13b', 'minigpt4_llama_2', 'minigpt_v2', 'blip2_flan-t5-xl', 'blip2-opt-3b', 'blip2-opt-7b', 'instructblip_vicuna-7b',  'instructblip_vicuna-13b', 'instructblip_flan-t5-xl', 'instructblip_flan-t5-xxl', 'llava_1.5-7b', 'llava_1.5-13b', 'otter', 'emu2-chat', 'qwen-vl', 'shikra-7b', 'internlm-xcomposer-vl-7b']
-valid_datasets = ['close-ended_dataset']
+valid_datasets = ['close-ended_dataset', 'open-ended_dataset']
 parser = argparse.ArgumentParser(description='Example argparse script.')
 parser.add_argument('--model_name', choices=valid_models, help='A list of valid models.')
 parser.add_argument('--dataset_list', nargs='+', choices=valid_datasets, help='A list of valid datasets.')
