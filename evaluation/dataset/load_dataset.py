@@ -8,7 +8,7 @@ dataset_dict = {
     "vlbold-p": VLBOLDDataset(dataset_name="vlbold-p", type="profession"),
     "vlbold-r": VLBOLDDataset(dataset_name="vlbold-r", type="race"),
     "vlbold-ri": VLBOLDDataset(dataset_name="vlbold-ri", type="religious_ideology"),
-    "open_ended_dataset": close_ended_dataset(dataset_name="close_ended_dataset")
+    "close_ended_dataset": close_ended_dataset(dataset_name="close_ended_dataset")
 }
 
 
