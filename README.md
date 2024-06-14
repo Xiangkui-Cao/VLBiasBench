@@ -57,61 +57,6 @@
 ![Overview of the construction of VLBiasBench](./docs/Figure2.png)
 **Figure 4. Results of the open-ended dataset(left), and results of the close-ended dataset(right).**
 
-#### Clean Scenario
-
-| Rank | Model | Score |
-| --- | --- | --- |
-| 🥇 | A |  |
-| 🥈 | B |  |
-| 🥉 | C |  |
-| 4 | D |  |
-| 5 | E |  |
-
-### Guidelines🧭
-
-#### The folder "category"
-
-The category folder contains all of Dysca's source material. It contains the following:
-
-                category 
-                ├── People 
-                │   ├── Age.txt 
-                │   ├── Emotion.txt 
-                │   ├── Gender.txt 
-                │   ├── Race.txt 
-                ├── Actions.txt 
-                ├── Profession.txt 
-                ├── Celebrity.txt 
-                ├── Animal.txt 
-                ├── Plant.txt 
-                ├── Food.txt 
-                ├── Object.txt 
-                ├── Landmarks.txt 
-                ├── Clothes.txt 
-                ├── Movie.txt 
-                ├── TV shows.txt 
-                ├── Anime.txt 
-                ├── Color.txt 
-                ├── Background.txt 
-                ├── Styles.json 
-                ├── ocr_text.json 
-                ├── text.txt
-                    
-    
-
-#### Generating Prompts, Questions and Answers
-
-The `./code/prompt_question_answer.py` is used to generate the source data for the dataset, i.e., all the prompts, questions, and answers used to generate the images. Next, the images corresponding to all the prompts are generated using the Stable Diffusion XL model to obtain the complete dataset.
-
-Specifically, in the main function's parameters:
-
-+   "tasks" parameter can choose one from "recognition", "OCR".
-+   "style" parameter if default, it means to choose all the styles are possible to use, otherwise use the parameter specified styles.
-+   "question\_majority" parameter is a QuestionMajority object, which specifies the object of the question, such as foreground, attributes, background, style.
-+   "question\_types" specifies which question types are selected.
-+   "prompt\_num" specifies the upper limit of generated prompts.
-+   "save\_dir" refers to the folder where the results are saved.
-
 ### Related projects🔗
 
 +   [BLIP-2](https://github.com/salesforce/LAVIS/tree/main/projects/blip2)
