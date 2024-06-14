@@ -20,7 +20,7 @@
 
 **Figure 3. Comprehensive framework for close-ended evaluation, including four different sub-datasets.**
 
-### Key statistics of Dysca📊
+### Key statistics of VLBiasBench📊
 
 | Statistic | Image Number | Sample Number |
 | --- | --- | --- |
