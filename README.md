@@ -1,6 +1,9 @@
 ## VLBiasBench: A large-scale dataset composed of high-quality synthetic images aimed at evaluating social biases in LVLMs 
 
 🔗The link to our project is [\[here\]](https://github.com/Xiangkui-Cao/VLBiasBench)
+🔗The link to our paper is [\[here\]]()
+🔗The link to our dataset is [\[here\]]()
+🔗The link to our dataset is [\[here\]]()
 
 ### Overview🔍
 
