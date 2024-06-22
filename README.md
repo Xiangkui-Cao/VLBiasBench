@@ -82,7 +82,7 @@ This section will include acknowledgements...
 
 🔗The link to our project is [\[here\]](https://github.com/Xiangkui-Cao/VLBiasBench)
 
-🔗The link to our paper is [\[here\]]()
+🔗The link to our paper is [\[here\]](https://arxiv.org/abs/2406.14194)
 
 🔗The link to our dataset is [\[Google Drive\]](https://drive.google.com/drive/folders/1YJx-6zCd506Xbm8rUtELKrRMp6nZbRuV?usp=drive_link)
 
