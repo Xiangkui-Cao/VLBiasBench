@@ -78,7 +78,7 @@
 
 This section will include acknowledgements...
 
-### Links(coming soon...)
+### Links
 
 🔗The link to our project is [\[github\]](https://github.com/Xiangkui-Cao/VLBiasBench)
 
