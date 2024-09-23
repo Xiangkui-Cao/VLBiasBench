@@ -71,12 +71,16 @@
 ### Cite our work📝
 
 @article{zhang2024vlbiasbench,
+  
   title={VLBiasBench: A Comprehensive Benchmark for Evaluating Bias in Large Vision-Language Model},
+  
   author={Zhang, Jie and Wang, Sibo and Cao, Xiangkui and Yuan, Zheng and Shan, Shiguang and Chen, Xilin and Gao, Wen},
+  
   journal={arXiv preprint arXiv:2406.14194},
+  
   year={2024}
-}
-        
+
+}      
     
 
 ### Acknowledgement
