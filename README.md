@@ -2,7 +2,7 @@
 
 ### Overview🔍
 
-![Overview of the construction of VLBiasBench](./docs/Figure1-1.png)
+![Overview of the construction of VLBiasBench](./docs/Figure1-final.pdf)
 
 **Figure 1. Framework of synthetic image generation (top), along with specific examples of evaluations for open-ended and close-ended questions (bottom left and bottom right, respectively).**
 
