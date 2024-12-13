@@ -17,7 +17,7 @@ These questions are divided into open-ended and close-ended types, ensuring thor
 
 ### Close-ended evaluation
 
-![Close-ended evaluation framework](./docs/framework-1.png)
+![Close-ended evaluation framework](./docs/framework-gai.png)
 
 **Figure 3. Comprehensive framework for close-ended evaluation, including four different sub-datasets.**
 
@@ -47,9 +47,9 @@ These questions are divided into open-ended and close-ended types, ensuring thor
 
 ### Examples of VLBiasBench📸
 
-![A sample in open-ended evaluation](./docs/Open_Otter_African-1.png)
+![A sample in open-ended evaluation](./docs/Open_African.png)
 
-![A sample in close-ended evaluation](./docs/Close_3-1.png)
+![A sample in close-ended evaluation](./docs/Close_3n.png)
 
 ### Evaluation Results🏆
 
