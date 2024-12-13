@@ -51,10 +51,10 @@ These questions are divided into open-ended and close-ended types, ensuring thor
 
 ![A sample in close-ended evaluation](./docs/Close_3n.png)
 
-### Evaluation Results🏆
+<!--### Evaluation Results🏆
 
 ![Overview of the construction of VLBiasBench](./docs/Figure2.png)
-**Figure 4. Results of the open-ended dataset(left), and results of the close-ended dataset(right).**
+**Figure 4. Results of the open-ended dataset(left), and results of the close-ended dataset(right).**-->
 
 ### Related projects🔗
 
