@@ -11,7 +11,7 @@ These questions are divided into open-ended and close-ended types, ensuring thor
 
 ### Open-ended evaluation
 
-![Open-ended evaluation framework](./docs/figure3-1.png)
+![Open-ended evaluation framework](./docs/open-construction.png)
 
 **Figure 2. Prompt library construction for open-ended question evaluation. Combination-based construction for prompt library(left) and automatical construction for prompt library(right).**
 
