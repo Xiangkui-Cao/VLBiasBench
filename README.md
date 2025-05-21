@@ -70,18 +70,15 @@ These questions are divided into open-ended and close-ended types, ensuring thor
 +   [InternLM-XComposer](https://github.com/InternLM/InternLM-XComposer)
 
 ### Cite our work📝
-
-@article{zhang2024vlbiasbench,
-  
-  title={VLBiasBench: A Comprehensive Benchmark for Evaluating Bias in Large Vision-Language Model},
-  
-  author={Zhang, Jie and Wang, Sibo and Cao, Xiangkui and Yuan, Zheng and Shan, Shiguang and Chen, Xilin and Gao, Wen},
-  
+**If the paper, codes, or the dataset inspire you, please kindly cite us:**
+```latex
+@article{wang2024vlbiasbench,
+  title={Vlbiasbench: A comprehensive benchmark for evaluating bias in large vision-language model},
+  author={Wang, Sibo and Cao, Xiangkui and Zhang, Jie and Yuan, Zheng and Shan, Shiguang and Chen, Xilin and Gao, Wen},
   journal={arXiv preprint arXiv:2406.14194},
-  
   year={2024}
-
-}      
+}
+```    
     
 
 ### Acknowledgement
