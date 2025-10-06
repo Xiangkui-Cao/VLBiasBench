@@ -87,7 +87,7 @@ This section will include acknowledgements...
 
 ### Links
 
-🔗The links to our project are [\[github\]](https://github.com/Xiangkui-Cao/VLBiasBench)
+🔗The link to our project is [\[github\]](https://github.com/Xiangkui-Cao/VLBiasBench)
 
 🔗The link to our paper is [\[arxiv\]](https://arxiv.org/abs/2406.14194)
 
