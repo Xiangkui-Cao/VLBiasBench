@@ -1,5 +1,6 @@
 ## VLBiasBench: A large-scale dataset composed of high-quality synthetic images aimed at evaluating social biases in LVLMs 
 
+(Accepted By TPAMI)
 ### Overview🔍
 
 ![Overview of the construction of VLBiasBench](./docs/Figure1-final.png)
