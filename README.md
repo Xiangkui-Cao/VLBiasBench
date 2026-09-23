@@ -73,11 +73,16 @@ These questions are divided into open-ended and close-ended types, ensuring thor
 ### Cite our work📝
 **If the paper, codes, or the dataset inspire you, please kindly cite us:**
 ```latex
-@article{wang2024vlbiasbench,
-  title={Vlbiasbench: A comprehensive benchmark for evaluating bias in large vision-language model},
+@ARTICLE{11481174,
   author={Wang, Sibo and Cao, Xiangkui and Zhang, Jie and Yuan, Zheng and Shan, Shiguang and Chen, Xilin and Gao, Wen},
-  journal={arXiv preprint arXiv:2406.14194},
-  year={2024}
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+  title={VLBiasBench: A Comprehensive Benchmark for Evaluating Bias in Large Vision-Language Model}, 
+  year={2026},
+  volume={48},
+  number={8},
+  pages={10143-10156},
+  keywords={Motion pictures;Filtering;Filters;Circuits and systems;Information and communication technology;Communications technology;Amplitude shift keying;Amplitude modulation;Electronic mail;Videos;Benchmark;bias evaluation;large vision-language model},
+  doi={10.1109/TPAMI.2026.3683747}
 }
 ```    
     
@@ -90,7 +95,7 @@ This section will include acknowledgements...
 
 🔗The link to our project is [\[github\]](https://github.com/Xiangkui-Cao/VLBiasBench)
 
-🔗The link to our paper is [\[arxiv\]](https://arxiv.org/abs/2406.14194)
+🔗The link to our paper is [\[IEEE TPAMI\]](https://ieeexplore.ieee.org/abstract/document/11481174)
 
 🔗The links to our dataset are [\[Baidu Netdisk\]](https://pan.baidu.com/s/1vrO8T1ZJ00TJfrs9BHd8WQ?pwd=zpzb) or [\[IEEE DataPort\]](https://ieee-dataport.org/documents/vlbiasbench)
 
